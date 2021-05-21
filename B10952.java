@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class B10952 {
 	static Scanner sc = new Scanner(System.in);
 	public static StringBuilder sb = new StringBuilder();
 
