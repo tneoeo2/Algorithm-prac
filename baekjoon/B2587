@@ -1,0 +1,21 @@
+#평균과 중앙값 출력
+
+N = [0] * 5   #배열 미리 생성
+
+def get_sum(nums:list):
+  sum = 0
+  for n in nums:
+    sum += n
+  
+  return sum
+
+
+for i in range(5):
+  N[i] = int(input())  
+
+N.sort()   #순서대로 정렬
+
+sum = get_sum(N)
+
+print(int(sum/5))
+print(N[2])
