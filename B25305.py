@@ -6,7 +6,7 @@
  
 N, k = map(int, input().split())
 
-x = list(map(int, input().split()))
+x = list(map(int, input().split('')))
 
 x.sort(reverse=True)   #내림차순 정렬
 
@@ -15,6 +15,5 @@ print(x[k-1])
 
 
 
-    
 
  
