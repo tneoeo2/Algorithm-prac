@@ -8,7 +8,7 @@ n = int(input())        #회의의 최대개수
 
 sess = []
 
-start, end = map(int, input())  #회의 시작시간, 회의 끝나는 시간
+start, end = map(int, input().split())  #회의 시작시간, 회의 끝나는 시간
 
 for _ in range(n):
     sess.append([start, end])
