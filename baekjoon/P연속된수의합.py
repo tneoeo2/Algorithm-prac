@@ -19,7 +19,7 @@ num	total	result
 6	15	[0, 1, 2, 3, 4, 5]
 
 '''
-
+''' #? before
 def solution(num, total):
     answer = []     #answer는 1씩 증가하는 등차수열이다.
     
@@ -38,8 +38,32 @@ def solution(num, total):
     return answer 
 
 
+ '''
+ 
+def solution(num, total):
+    answer = []     #answer는 1씩 증가하는 등차수열이다.
+    
+    a = total//num
+    start = a-((num-1)//2)  #answer[0] 값
+    for i in range(num):
+        answer.append(start+i)
+        
 
+    return answer 
+
+ 
 print(solution(3, 12))
 print(solution(5, 15))
 print(solution(4, 14))
 print(solution(5, 5))
+
+
+
+#%%
+# def solution(num, total):
+#     return[(total - (num*(num-1) //2)) // num + i for i in range(num)]
+
+# '''
+# num*(num-1) //2 
+
+# '''
