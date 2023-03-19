@@ -48,6 +48,9 @@ input = sys.stdin.readline
             
             
 #%%
+'''
+다른 사람 풀이
+'''
 n, m = map(int, input().split())
 
 lst = []
